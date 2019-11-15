@@ -89,7 +89,7 @@ public class Compressor{
     		//comprimir
     		compress(filepath, ws);
     	}
-    	else if(args.length == 4 && args[i].equals("-d") && args[++i].equals("-w")){
+    	else if(args.length == 4 && args[i].equals("-c") && args[++i].equals("-w")){
     		System.out.println("Compress");
     		int ws = Integer.parseInt(args[++i]);
     		String filepath = args[++i];
